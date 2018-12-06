@@ -463,6 +463,7 @@ $(function () {
             //列表
             $menuBar.find('h5').each(function () {
                 var $this = $(this);
+                $this.addClass('on');
                 $this.html('<svg><use xlink:href="#icon:navArrow"></use></svg><span>' + $this.text() + '</span>')
             });
             $menuBar.trigger('scrollbar');
