@@ -505,6 +505,7 @@ body {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .menubar ul li > a:after, .menubar ul li > strong:after {
